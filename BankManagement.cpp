@@ -5,7 +5,7 @@
 
 using namespace std;
 
-/* -------- Account Class -------- */
+//Account Class
 class Account {
     int accNo;
     string name;
@@ -69,7 +69,7 @@ public:
     }
 };
 
-/* -------- Bank Class -------- */
+//Bank Class
 class Bank {
     vector<Account> accounts;
     string fileName = "accounts.txt";
@@ -220,3 +220,4 @@ int main() {
 
     return 0;
 }
+
